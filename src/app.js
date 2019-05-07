@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-import ToDo from './components/todo/todo.js';
+import Counter from './components/counter';
+import ToDo from './components/todo';
 
-export default class App extends React.Component {
+export default class App extends Component {
   render() {
     return (
       <>
+        <Counter />
         <ToDo />
       </>
     );
